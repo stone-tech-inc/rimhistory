@@ -77,7 +77,11 @@ tomli==2.0.0
     #   pytest
 tqdm==4.64.0
     # via -r requirements.in
-wcmatch==8.3
+typing-extensions==4.11.0
+    # via
+    #   astroid
+    #   pylint
+wcmatch==8.5.2
     # via -r requirements.in
 wrapt==1.13.3
     # via astroid
