@@ -42,7 +42,7 @@ plotly==5.8.0
     # via -r requirements.in
 pluggy==1.0.0
     # via pytest
-psutil==5.9.0
+psutil==6.0.0
     # via -r requirements.in
 py==1.11.0
     # via
@@ -77,6 +77,10 @@ tomli==2.0.0
     #   pytest
 tqdm==4.64.0
     # via -r requirements.in
+typing-extensions==4.12.2
+    # via
+    #   astroid
+    #   pylint
 wcmatch==8.3
     # via -r requirements.in
 wrapt==1.13.3
