@@ -12,7 +12,7 @@ bracex==2.2.1
     # via wcmatch
 bunch==1.0.1
     # via -r requirements.in
-coverage==6.3.3
+coverage==7.5.4
     # via -r requirements.in
 dill==0.3.4
     # via pylint
@@ -77,6 +77,10 @@ tomli==2.0.0
     #   pytest
 tqdm==4.64.0
     # via -r requirements.in
+typing-extensions==4.12.2
+    # via
+    #   astroid
+    #   pylint
 wcmatch==8.3
     # via -r requirements.in
 wrapt==1.13.3
