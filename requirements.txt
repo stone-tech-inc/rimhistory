@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-astroid==2.11.5
+astroid==3.2.2
     # via pylint
 attrs==21.4.0
     # via pytest
@@ -24,8 +24,6 @@ iniconfig==1.1.1
     # via pytest
 isort==5.10.1
     # via pylint
-lazy-object-proxy==1.7.1
-    # via astroid
 mccabe==0.6.1
     # via pylint
 numpy==1.23.2
@@ -48,7 +46,7 @@ py==1.11.0
     # via
     #   pytest
     #   pytest-forked
-pylint==2.13.9
+pylint==3.2.4
     # via -r requirements.in
 pyparsing==3.0.7
     # via packaging
@@ -75,12 +73,13 @@ tomli==2.0.0
     # via
     #   pylint
     #   pytest
+tomlkit==0.12.5
+    # via pylint
 tqdm==4.64.0
     # via -r requirements.in
+typing-extensions==4.12.2
+    # via
+    #   astroid
+    #   pylint
 wcmatch==8.3
     # via -r requirements.in
-wrapt==1.13.3
-    # via astroid
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools
